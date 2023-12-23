@@ -391,8 +391,6 @@ button {
     width: 3px;
 }
 
-.cart-body::-webkit-scrollbar-track {}
-
 .cart-body::-webkit-scrollbar-thumb {
     background-color: #DFDFF0;
     border-radius: 3px;
