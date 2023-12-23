@@ -1049,6 +1049,54 @@ button {
     text-decoration: underline;
 }
 
+.popup-container {
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1224px;
+    height: 385px;
+    background: url(../img/popup-bg.svg), #F3EFFF ;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 30px;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.3);
+}
+
+.popup-title {
+    margin-bottom: 32px;
+    color: #3B3C40;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.popup-text {
+    width: 643px;
+    color: #9293B0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.popup-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+}
+
 /* Footer */
 footer {
     margin: 152px auto 50px auto;
@@ -1277,7 +1325,7 @@ footer {
     }
 
     .header-bot .search-input {
-        width: 282px;
+        width: 305px;
         height: 42px;
         padding: 3px 3px 3px 20px;
         border-radius: 10px;
@@ -1726,6 +1774,32 @@ footer {
         flex-direction: column-reverse;
         align-items: flex-start;
         gap: 20px;
+    }
+
+    .popup {
+        width: 350px;
+        height: 248px;
+        border-radius: 14.695px;
+        background-size: 306px 128px;
+    }
+    
+    .popup-title {
+        font-size: 26px;
+    }
+    
+    .popup-text {
+        width: 335px;
+        font-size: 15px;
+    }
+
+    .popup-btn {
+        top: 15px;
+        right: 10px;
+    }
+
+    .popup-btn  svg{
+        width: 30px;
+        height: 30px;
     }
 
     /* Footer */
