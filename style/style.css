@@ -200,6 +200,10 @@ button {
     gap: 30px;
 }
 
+.header-bot__btns-list::-webkit-scrollbar {
+    display: none;
+}
+
 .header-bot__btn-item {
     position: relative;
 }
@@ -1462,7 +1466,7 @@ footer {
 
     }
 
-    header .header-bot__btns-list::-webkit-scrollbar {
+    .header-bot__btns-list::-webkit-scrollbar {
         display: none;
     }
 
